@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+.head-section{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(13,36,50);
+    position: sticky;
+}
+.head-section ul{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-inline: 7rem;
+   color: white;
+   font-size: 15px;
+   padding-top: 10px;
+   font-weight: 600;
+}
+
+.head-section ul li{
+    list-style: none;
+}
+
+.head-section ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.free{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-inline: 15rem;
+}
+
+.free h6 a{
+    text-decoration: none;
+    color: grey;
+}
+
+.timeless{
+    width: 100%;
+    height: 66vh;
+    margin-bottom: 30px;
+}
+.timeless img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center;
+}
+
+.shop-wed{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5rem;
+    margin-bottom: 20px;
+}
+
+.shop-div{
+    width: 32%;
+    height: 100%;
+    background-image: url(./image/shop\ wed.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25rem 0 0 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    
+}
+.polo-div{
+    width: 32%;
+    height: 100%;
+    background-image: url(./image/shop\ polo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25rem 0 0 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+}
+.any-div{
+    width: 32%;
+    height: 100%;
+    background-image: url(./image/any\ shirts.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25rem 0 0 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.products{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px ;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.cloth-div{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10rem;
+    margin-bottom: 30px;
+}
+.cloth-div img{
+    width: 18%;
+    height: 100%;
+    
+}
+
+.holiday{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 7rem;
+    margin-bottom: 20px;
+}
+
+.holi-div{
+    width: 49%;
+    height: 100%;
+    background-image: url(./image/holiday.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-top: 17rem;
+}
+.holi-divs{
+    width: 49%;
+    height: 100%;
+    background-image: url(./image/get\ personal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-top: 17rem;
+}
+
+.buts{
+    font-size: 15px;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    height: 3rem;
+    color: white;
+    background-color: rgb(13,36,50);
+}
+
+.verified{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 8rem;
+}
+
+.veri{
+    background-color: rgb(248,249,250);
+    width: 23%;
+    height: 100%;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.label{
+    width: 100%;
+    height: 60vh;
+    padding-inline: 8rem;
+    margin-bottom: 30px;
+}
+.label img{
+    width: 100%;
+    height: 100%;
+}
+
+.holidays{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 7rem;
+    margin-bottom: 30px;
+}
+
+.holiday-div{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(14,27,38);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-top: 5rem;
+}
+.holiday-divs{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(244,247,250);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(14,27,38);
+    padding-top: 5rem;
+}
+
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(244,247,250);
+    padding-inline: 8rem;
+    
+}
+
+.foot-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+}
+
+.foot{
+    width: 100%;
+    height: 0;
+    border: solid 2px rgb(13,36,50);
+}
+
+.footer ul{
+    padding: 15px;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.footer ul li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.input{
+    width: 60%;
+    height: 3rem;
+    padding: 5px;
+}
+
+.btns{
+    width: 30%;
+    height: 3rem;
+    background-color: rgb(161,146,104);
+    color: white !;
+    border: none;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:480px){
+    
+}
